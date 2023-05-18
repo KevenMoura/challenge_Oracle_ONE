@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 1440px;
+    font-family: 'Inter';
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#header {
+    position: absolute;
+    top: 40px;
+    left: 84px;
+}
+
+aside {
+    width: 400px;
+    height: 944px;
+    position: relative;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.btn-copiar {
+    position: absolute;
+    top: 845px;
+    left: 32px;
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    font-size: 16px;
+    color: #0A3871;
+    line-height: 19px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+aside .banner img {
+    width: 336px;
+    height: 304px;
+    margin-top: 50px;
+}
+
+.mensagem {
+    position: absolute;
+    width: 335px;
+    height: 420px;
+    top: 380px;
+    left: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.input-text {
+    position: absolute;
+    left: 240px;
+    top: 168px;
+}
+
+.entrada {
+    height: 48px;
+    width: 680px;
+    border: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.input-text p {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.obs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.obs img {
+    width: 16px;
+}
+
+.obs h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.btn-cript {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF;
+}
+
+.btn-descript {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}

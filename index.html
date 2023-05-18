@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+</head>
+<body>
+    <div class="container">
+
+        <header id="header">
+            <img src="img/logo-alura.png" alt="logotipo da alura">
+        </header>
+
+        <main>
+            <div class="obs">
+                <img src="img/Vector.png" alt="sinal de exclamação">
+                <h3>Apenas letras minúsculas e sem acento.</h3>
+            </div><!--obs-->
+
+            <div class="input-text">
+                <textarea class="entrada" id="entrada" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            </div>
+            
+            <div class="botoes">
+                <button class="btn-cript" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-descript" onclick="btnDesencriptar()">Descriptografar</button>
+            </div><!--botoes-->
+            
+
+        </main>
+
+        <aside>
+            <div class="banner flex">
+                <div class="banner-imagem">
+                    <img src="img/banner.png" alt="banner">
+                </div><!--banner-imagem-->
+                <div class="out-text">
+                    <textarea class="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+                </div>
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div><!--banner flex-->
+        </aside>
+
+    </div><!--container-->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
